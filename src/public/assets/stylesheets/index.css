@@ -1,0 +1,85 @@
+/* -------------------  MOBILE  --------------------- */
+
+header {
+  /* header styles */
+}
+
+body {
+  font-family: Courier;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#root {
+  /*  flex: 1; */
+  padding: 10px;
+  max-width: 600px;
+  border: solid blue 1px;
+  box-shadow: 5px 5px lightgrey;
+}
+
+td {
+  padding: 5px;
+  max-width: 200px;
+  vertical-align: top;
+}
+h1 {
+  padding: 10px;
+}
+h3 {
+  padding: 5px;
+  border: solid grey 1px;
+  border-radius: 10px 10px 0 0;
+}
+
+footer {
+  /* footer styles */
+}
+
+/* -------------------  TABLET  --------------------- */
+@media (min-width: 768px) {
+  #root {
+    padding: 10px;
+    max-width: 750px;
+    border: solid lightgrey 1px;
+    box-shadow: 5px 5px lightgrey;
+  }
+  td {
+    padding: 5px;
+    max-width: 250px;
+  }
+}
+
+/* -------------------  DESKTOP  -------------------- */
+
+@media (min-width: 1224px) {
+  /* use DESKTOP */
+  #root {
+    padding: 20px;
+    max-width: 1200px;
+    border: solid lightgrey 1px;
+    box-shadow: 5px 5px lightgrey;
+  }
+
+  td {
+    padding: 10px;
+    max-width: 400px;
+  }
+}
+
+/* -------------------  LARGE SCREENS  -------------- */
+
+@media (min-width: 1824px) {
+  /* use large sdcreen */
+  #root {
+    padding: 20px;
+    width: 1650px;
+    border: solid lightgrey 1px;
+    box-shadow: 7px 7px lightgrey;
+  }
+  td {
+    padding: 10px;
+    max-width: 550px;
+  }
+}
