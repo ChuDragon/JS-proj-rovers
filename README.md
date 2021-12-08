@@ -26,7 +26,7 @@ Finally, the required NASA API key is saved in the `.env` file.
 ## Concepts Practiced
 
 ### Functional Programming
-I used pure functions to reduce code side effects, including higher-order functions and IEFE.
+I used pure functions to reduce code side effects, including higher-order functions and IIFE.
 
 ### Array Methods
 I use .map and .findindex array methods to process data returned by APIs.
