@@ -3,7 +3,7 @@
 ### Project: Mars Dashboard
 
 ## Student Developer: Roman Chuyan
-The focus of this project was practicing functional JavaScript programming: use pure functions, icluding higher-order functions and IEFE.
+The focus of this project was practicing functional JavaScript programming: use pure functions, icluding higher-order functions.
 Another objective was becoming comfortable working with, reshaping, and accessing information from complex API responses. 
 I attempt to follow the ES6 syntax, and to adhere to best practices on variable declaration and comments. 
 This is a learning project (not meant for production), focusing on mastering the concepts rather than perfecting the app.
