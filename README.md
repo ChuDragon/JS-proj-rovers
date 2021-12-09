@@ -20,8 +20,9 @@ My work was mostly in JavaScript, as well as some css to create an interactive, 
 ## Setup/Dependencies
 Dependencies are setup in the `/node_modules.zip` folder. Before runnung the app, you need to unzip the folder to the project root.
 Yarn is used as a package manager. In the terminal, run `yarn start` (npm or yarn must be installed) at the root of the project.
-'Example app listening on port 3000!' should be logged on the console. You can then access the app in a browser via `http://localhost:3000`.
-Finally, the required NASA API key is saved in the `.env` file.
+'Example app listening on port 3000!' should be logged on the terminal. Start the frontend by navigating to `http://localhost:3000` in your browser.
+
+The required NASA API key is saved in the `.env` file.
 
 ## Concepts Practiced
 
